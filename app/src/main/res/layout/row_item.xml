@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/card"
+    android:id="@+id/cCard">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+
+        <TextView
+            android:id="@+id/itemName"
+            style="@style/tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/itemUOM"
+            style="@style/tv"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@+id/itemName"
+            app:layout_constraintTop_toBottomOf="@+id/itemName" />
+
+
+        <TextView
+            android:id="@+id/itemCost"
+            style="@style/tv"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/delete"
+            app:layout_constraintEnd_toStartOf="@+id/delete"
+            app:layout_constraintTop_toTopOf="@+id/delete" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/img_button"
+            app:srcCompat="@drawable/baseline_delete_outline_24" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

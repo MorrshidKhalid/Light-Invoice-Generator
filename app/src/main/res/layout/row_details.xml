@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/card">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="0dp"
+            style="@style/tv"
+            android:layout_weight="1"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:text="@string/hintItemName"/>
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="0dp"
+            style="@style/tv"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="@string/hint_qty"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            style="@style/tv"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="@string/hint_prc"/>
+
+        <TextView
+            android:id="@+id/tvTotalCost"
+            android:layout_width="0dp"
+            style="@style/tv"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="@string/hint_total"/>
+
+
+    </TableRow>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/card"
+    android:id="@+id/cCard">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+
+        <TextView
+            android:id="@+id/client_phone"
+            style="@style/tv"
+            android:layout_width="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/hintClientPhone"
+            android:textColor="@color/cardview_shadow_start_color"
+            app:layout_constraintBottom_toBottomOf="@+id/select_client"
+            app:layout_constraintEnd_toStartOf="@+id/delete"
+            app:layout_constraintStart_toStartOf="@+id/select_client"
+            app:layout_constraintTop_toBottomOf="@+id/select_client" />
+
+
+        <RadioButton
+            android:id="@+id/select_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/delete"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textSize="16sp"
+            />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/img_button"
+            app:srcCompat="@drawable/baseline_delete_outline_24" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,111 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.InvoiceGenerator" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/faceBlue</item>
+        <item name="colorOnPrimary">@color/faceBlue</item>
+        <item name="colorPrimaryVariant">@color/faceBlue</item>
+        <item name="colorPrimaryContainer">@color/faceBlue</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="toolbarSurfaceStyle">@color/faceBlue</item>
+        <item name="toolbarStyle">@style/Theme.Custom.Toolbar</item>
+
+
+
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/faceBlue</item>
+        <item name="colorSecondaryVariant">@color/faceBlue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryContainer">@color/faceBlueBluer</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="Theme.Custom.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/faceBlue</item>
+    </style>
+
+    <!-- Style the button -->
+    <style name="fab" parent="Widget.Material3.FloatingActionButton.Primary">
+
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Material3.FloatingActionButton</item>
+        <item name="srcCompat">@drawable/baseline_add_24</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- Style the cardView on the layout -->
+    <style name="card" parent="Widget.Material3.CardView.Filled">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:padding">2dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+
+    <!-- Style the textView on the layout -->
+    <style name="tv" >
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+    <!-- Style the small add button on the layout -->
+    <style name="Theme.InvoiceGenerator.smallBtnAdd" parent="Widget.Material3.FloatingActionButton.Small.Primary">
+
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Material3.FloatingActionButton</item>
+        <item name="srcCompat">@drawable/baseline_add_24</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+    <!-- Style the EditText on the bottom sheet layouts -->
+    <style name="edt">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_margin">4dp</item>
+
+    </style>
+
+
+    <!-- Style the textView on the layout -->
+    <!--    ?attr/textInputFilledStyle-->
+    <style name="txtField" parent="Widget.Material3.TextInputLayout.FilledBox">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="counterEnabled">true</item>
+        <item name="errorEnabled">true</item>
+
+    </style>
+
+</resources>

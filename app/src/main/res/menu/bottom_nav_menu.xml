@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_invoice"
+        android:icon="@drawable/baseline_paid_24"
+        android:title="@string/nav_inv" />
+
+    <item
+        android:id="@+id/nav_estimate"
+        android:icon="@drawable/baseline_paid_24"
+        android:title="@string/nav_es"/>
+
+    <item
+        android:id="@+id/nav_payment"
+        android:icon="@drawable/baseline_payments_24"
+        android:title="@string/nav_pay"/>
+
+    <item
+        android:id="@+id/nav_client"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/nav_cli"/>
+
+    <item
+        android:id="@+id/nav_item"
+        android:icon="@drawable/baseline_shopping_bag_24"
+        android:title="@string/nav_ite"/>
+
+</menu>

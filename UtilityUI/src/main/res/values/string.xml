@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Dialog -->
+    <string name="yes">Accept</string>
+    <string name="no">Cancel</string>
+    <string name="delTitle">Delete</string>
+
+
+    <!-- Warnings -->
+    <string name="empty">Fill require</string>
+    <string name="delMsg">Are you sure you want to delete?</string>
+
+    <!-- Default value -->
+    <string name="def">Not defined</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.estimate_line.EstimateLineFragment"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <include
+        android:id="@+id/inc_details"
+        layout="@layout/row_details"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvEstimateLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
+

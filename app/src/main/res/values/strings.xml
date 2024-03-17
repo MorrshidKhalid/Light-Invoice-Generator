@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">InvoiceGenerator</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- bottom navigation and title -->
+    <string name="nav_inv">Invoice</string>
+    <string name="nav_es">Estimate</string>
+    <string name="nav_pay">Payment</string>
+    <string name="nav_cli">Client</string>
+    <string name="nav_ite">Item</string>
+    <string name="nav_client_info">Client info</string>
+    <string name="nav_new_item">New item</string>
+    <string name="nav_update_item">Item info</string>
+    <string name="nav_term">Term</string>
+    <string name="nav_new_es">New estimate</string>
+    <string name="i_date">ISSUED DATE</string>
+    <string name="nav_select_client">Select Client</string>
+    <string name="nav_business">Business</string>
+    <string name="nav_estimate_line">Estimate details</string>
+
+
+    <!-- menu -->
+    <string name="menu_save">Save</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_pdf">PDF</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_sort_by_oldest">Sort by Oldest</string>
+    <string name="menu_sort_by_newest">Sort by Newest</string>
+    <string name="menu_sort_by_alphabet">Sort by Alphabet</string>
+
+
+    <!-- content description -->
+    <string name="fab_add">Add new things</string>
+    <string name="img_button">Show more actions user may want to do</string>
+    <string name="ex_button">Navigate to other fragment in order to select, add, complete stuff</string>
+    <string name="in_bottom_sheet">Make it easy to add get input from the user</string>
+    <string name="icon">Clarify the field meaning</string>
+    <string name="rm">Remove easily items from a list</string>
+
+
+    <!-- default values -->
+    <string name="name">Client name</string>
+    <string name="phone">+967775265494</string>
+    <string name="tv_from">From</string>
+    <string name="tv_from_content">Not defined</string>
+    <string name="tv_to">To</string>
+    <string name="tv_to_content">To client</string>
+    <string name="empBusiness">Unknowing business</string>
+
+
+    <!-- Hints -->
+    <string name="hintClientName">Client name</string>
+    <string name="hintClientPhone">Client phone</string>
+    <string name="hintEmail">Client email</string>
+    <string name="hintItemName">Item name</string>
+    <string name="hintItemUom">Unit of measure</string>
+    <string name="hintItemDes">Item description</string>
+    <string name="hintBaseCost">Base cost</string>
+    <string name="hint_new_term">Please write your term here</string>
+    <string name="hint_qty">Quantity</string>
+    <string name="hint_prc">Price</string>
+    <string name="hint_total">Total</string>
+    <string name="hint_note">Please write any note here</string>
+    <string name="hint_Business">Business name</string>
+
+
+    <!-- Warnings -->
+    <string name="empty">Fill require</string>
+    <string name="delMsg">Are you sure you want to delete?</string>
+
+
+    <!-- Dialog -->
+    <string name="yes">Accept</string>
+    <string name="no">Cancel</string>
+    <string name="delTitle">Delete</string>
+
+
+    <!-- Confirm messages -->
+    <string name="cliDel">Client deleted successfully</string>
+    <string name="itemDel">Item deleted successfully</string>
+
+
+    <!-- Button text -->
+    <string name="exBtn">Select item term &amp; condition</string>
+    <string name="btnAdd">Add item</string>
+
+
+    <!-- Currencies -->
+    <string-array name="currency_array">
+        <item>$USD - United States Dollar</item>
+        <item>*SAR - Saudi Riyal</item>
+        <item>*YER - Yemeni Rial</item>
+        <item>₹INR - Indian Rupee</item>
+        <item>€EUR - Euro</item>
+    </string-array>
+
+
+    <!-- Unit of Measure -->
+    <string-array name="uom">
+        <item>GROSS</item>
+        <item>PK100</item>
+        <item>PK50</item>
+        <item>SET3</item>
+        <item>SET4</item>
+        <item>SET5</item>
+        <item>RACK</item>
+        <item>SQFT</item>
+        <item>TUBE</item>
+        <item>BOWL</item>
+        <item>BAG</item>
+        <item>BKT</item>
+        <item>BND</item>
+        <item>PCs</item>
+        <item>CRD</item>
+        <item>CTN</item>
+        <item>GAL</item>
+        <item>KIT</item>
+        <item>LOT</item>
+        <item>SET</item>
+        <item>BX</item>
+        <item>DZ</item>
+        <item>EA</item>
+        <item>FT</item>
+        <item>CM</item>
+        <item>CS</item>
+        <item>IN</item>
+        <item>MM</item>
+        <item>PR</item>
+        <item>RL</item>
+        <item>YD</item>
+        <item>PK</item>
+        <item>M</item>
+    </string-array>
+
+
+</resources>
